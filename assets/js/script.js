@@ -43,14 +43,15 @@ btnDecrypt.onclick = () => {
     const hideArea = document.getElementById('hideArea')
     const hideArea2 = document.getElementById('hideArea2')
     const arrayListEncrypt = []
-
+    
     const decrypt = textEntry.replace(/enter/g, 'e').replace(/imes/g, 'i').replace(/ai/g, 'a').replace(/ober/g, 'o').replace(/ufat/g, 'u')
     
     hideArea.style.display = 'none'
     hideArea2.style.display = 'none'
     areaOutput.style.justifyContent = 'start'
     outputText.innerHTML = arrayListEncrypt.join('')
-    btnCopy.style.display = 'none';
+    outputText.innerHTML = decrypt
+
 }
 
 btnCopy.onclick = () => {
