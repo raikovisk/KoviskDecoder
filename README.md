@@ -4,10 +4,10 @@ Decodificador de texto simples para uso recreativo.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/almeidaraisson/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2almeidaraisson"></a>
-<img alt="Repo size" src="https://img.shields.io/github/repo-size/raikovisk/KoviskDecoder">
 </div>
 
-
+![GitHub repo size](https://img.shields.io/github/repo-size/raikovisk/KoviskDecoder)
+![GitHub language count](https://img.shields.io/github/languages/count/raikovisk/KoviskDecoder)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
 # 📑 Resumo do desafio
