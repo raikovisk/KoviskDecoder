@@ -2,13 +2,11 @@
 
 Decodificador de texto simples para uso recreativo.
 
-<div align="center">
+<div>
   <a href="https://www.linkedin.com/in/almeidaraisson/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2almeidaraisson"></a>
 </div>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/raikovisk/KoviskDecoder)
-
-
 ![GitHub language count](https://img.shields.io/github/languages/count/raikovisk/KoviskDecoder)
 
 
