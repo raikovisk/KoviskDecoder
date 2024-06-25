@@ -3,11 +3,10 @@
 Decodificador de texto simples para uso recreativo.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/raikovisk/KoviskDecoder/main/vecteezy_translator-icon-design_31737414.png" width="200" height="200" />
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Aliine98/decodificador?style=flat">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/Aliine98/decodificador?color=magenta&style=flat">
-  <a href="https://www.linkedin.com/in/aline-bevilacqua/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Faline-bevilacqua%2F"></a>
+  <a href="https://www.linkedin.com/in/almeidaraisson/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2almeidaraisson"></a>
 </div>
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/raikovisk/KoviskDecoder?style=flat)
+
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
