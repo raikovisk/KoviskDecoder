@@ -35,9 +35,8 @@ Este desafio de programação faz parte do projeto Oracle Next One T6.
 
 ## 👨‍💻 Executar o projeto
 
-```bash
 https://raikovisk.github.io/KoviskDecoder/
-```
+
 
 ## Licença
 
