@@ -4,8 +4,8 @@ Decodificador de texto simples para uso recreativo.
 
 <div align="center">
   <a href="https://www.linkedin.com/in/almeidaraisson/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2almeidaraisson"></a>
+<img alt="Dependence status" src="https://img.shields.io/librariesio/github/raikovisk/KoviskDecoder?style=flat">
 </div>
-![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/raikovisk/KoviskDecoder?style=flat)
 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
