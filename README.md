@@ -3,9 +3,15 @@
 Decodificador de texto simples para uso recreativo.
 
 
-<img src="[https://i.imgur.com/gp1e2mf.png](https://github.com/raikovisk/KoviskDecoder/assets/58261944/ac904667-291d-4116-9300-a0cb3f3cee73)" width="200" height="200" />
+![GitHub repo size](https://img.shields.io/github/repo-size/raikovisk/KoviskDecoder)
+![GitHub language count](https://img.shields.io/github/languages/count/raikovisk/KoviskDecoder)
+
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/almeidaraisson/"><img alt="Linkedin URL" src="https://img.shields.io/twitter/url?label=Conecte-se comigo&logo=linkedin&style=social&url=https%3A%2F%2Fwww.linkedin.com%2Fin%2almeidaraisson"></a>
+</div>
 
 # 📑 Resumo do desafio
 Desenvolver um uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
@@ -35,11 +41,10 @@ Este desafio de programação faz parte do projeto Oracle Next One T6.
 
 ## 👨‍💻 Executar o projeto
 
-```bash
-******
-```
+https://raikovisk.github.io/KoviskDecoder/
+
 
 ## Licença
 
-[MIT](https://choosealicense.com/licenses/mit/)
+![License](https://img.shields.io/github/license/Aliine98/decodificador?style=for-the-badge)
 
