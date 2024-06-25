@@ -3,7 +3,7 @@
 Decodificador de texto simples para uso recreativo.
 
 
-<img src="[https://i.imgur.com/gp1e2mf.png](https://github.com/raikovisk/KoviskDecoder/assets/58261944/ac904667-291d-4116-9300-a0cb3f3cee73)" width="200" height="200" />
+<img src="https://raw.githubusercontent.com/raikovisk/KoviskDecoder/main/vecteezy_translator-icon-design_31737414.png" width="200" height="200" />
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=FINALIZADO&color=GREEN&style=for-the-badge)
 
