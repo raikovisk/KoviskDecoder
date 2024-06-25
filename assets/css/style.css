@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  --pri-color: rgb(172, 0, 57);
+  --sec-color: rgb(218, 0, 73);
+  --thr-color: #0a3871;
+}
+
+body {
+  background: #f3f5fc;
+  font-family: "Inter", sans-serif;
+}
+
+.container-general__data-entry {
+  text-align: center;
+}
+
+.c-header {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: slip;
+}
+
+.c-header__icon {
+  margin-left: 1rem;
+  font-size: 4rem;
+  color: var(--pri-color);
+}
+
+.c-header__title-app {
+  color: var(--pri-color);
+  font-size: 2rem;
+}
+
+.container-general__input-area {
+  width: 350px;
+  height: 100px;
+  margin-top: 2rem;
+  resize: none;
+  color: var(--ter-color);
+  font-size: 1.6rem;
+  background: none;
+  font-weight: 200px;
+  border: solid 1px gray;
+}
+
+.container-general__information-area {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.container-general__information-area__icon {
+  font-size: 1.4rem;
+  color: var(--pri-color);
+}
+
+.container-general__information-area__text {
+  font-size: 0.8rem;
+  color: var(--thr-color);
+}
+
+//------------ BUTONS --------------
+
+.container-general__service-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-general__service-buttons__encrypts,
+.container-general__service-buttons__decrypts {
+  margin: 1rem;
+  height: 3rem;
+  width: 10rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  font-weight: 200px;
+}
+
+.container-general__service-buttons__encrypts::before,
+.container-general__service-buttons__decrypts::before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.container-general__service-buttons__encrypts:active,
+.container-general__service-buttons__decrypts:active {
+  color: #000;
+}
+.container-general__service-buttons__encrypts:active:after,
+.container-general__service-buttons__decrypts:active:after {
+  background: transparent;
+}
+.container-general__service-buttons__encrypts:hover:before,
+.container-general__service-buttons__decrypts:hover:before {
+  opacity: 1;
+}
+.container-general__service-buttons__encrypts:after,
+.container-general__service-buttons__decrypts:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+// ---------------------------------
+.container-general__output-area {
+  margin: 2rem;
+  padding: 1rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  color: #343a40;
+}
+
+.container-general__output-area__title-empty-area {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 100px;
+}
+
+.container-general__output-area__area-receiving_btnCopy {
+  background: #e3e3e3;
+  color: #202020;
+  float: right;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 5rem;
+}
+.container-general__output-area__area-receiving_btnCopy:active {
+  background: var(--pri-color);
+  color: #fff;
+}
+
+.container-general__center-area {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.footer__container-dev {
+  display: flex;
+  align-items: center;
+}
+
+.footer__container-dev__icon {
+  margin-right: 0.5rem;
+  color: #000000;
+}
+
+.footer__container-dev__link {
+  color: var(--ter-color);
+}
+
+/*Animação de Deslizar o ícone e titulo no Header*/
+@keyframes slip {
+  from {
+    margin-left: -20%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+/*Responsividade para tablets*/
+@media (min-width: 482px) and (max-width: 767px) {
+  .container-general__data-entry {
+    text-align: left;
+  }
+
+  .container-general__input-area {
+    width: 520px;
+    height: 200px;
+    margin-left: 4rem;
+  }
+
+  .container-general__information-area__icon {
+    margin-left: 3rem;
+  }
+
+  .container-general__information-area__text {
+    margin-left: 0.2rem;
+  }
+
+
+}
+
+/*Responsividade para telas pequenas, laptops*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-general__data-entry {
+    text-align: left;
+  }
+
+  .container-general__input-area {
+    width: 700px;
+    height: 200px;
+    margin-left: 2rem;
+  }
+
+}
+
+/*Responsividade para telas grandes */
+@media (min-width: 1025px) {
+  .container-general__center-area {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .container-general__output-area__image-search {
+    width: 12rem;
+  }
+
+  .container-general__output-area {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .container-general__data-entry {
+    text-align: left;
+  }
+
+  .container-general__input-area {
+    width: 700px;
+    height: 400px;
+    margin-left: 4rem;
+  }
+
+  .container-general {
+    display: flex;
+  }
+
+  .container-general__information-area {
+    margin-left: 4rem;
+  }
+
+  .container-general__service-buttons__encrypts,
+  .container-general__service-buttons__decrypts {
+    margin: 1rem;
+    height: 3rem;
+    width: 16rem;
+    border-radius: 1rem;
+    font-weight: 100px;
+  }
+
+  .container-general__service-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
