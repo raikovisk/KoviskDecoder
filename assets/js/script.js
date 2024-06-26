@@ -48,6 +48,11 @@ btnDecrypt.onclick = () => {
     const hideArea = document.getElementById('hideArea')
     const hideArea2 = document.getElementById('hideArea2')
     const arrayListEncrypt = []
+
+    if (/[A-ZÀ-ÖØ-öø-ÿ]/.test(textEntry)) {
+        alert("Por favor, digite apenas letras minúsculas e sem acento.");
+        return;
+    }
     
     const decrypt = textEntry.replace(/enter/g, 'e').replace(/imes/g, 'i').replace(/ai/g, 'a').replace(/ober/g, 'o').replace(/ufat/g, 'u')
     
