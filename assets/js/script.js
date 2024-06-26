@@ -11,6 +11,11 @@ btnEncrypt.onclick = () => {
     const arrayText = textEntry.split('')
     const arrayListEncrypt = []
 
+    if (/[A-ZÀ-ÖØ-öø-ÿ]/.test(textEntry)) {
+        alert("Por favor, digite apenas letras minúsculas e sem acento.");
+        return;
+    }
+
     arrayText.forEach(element => {
         if(element === 'a'){
             arrayListEncrypt.push('ai')
@@ -64,4 +69,9 @@ btnCopy.onclick = () => {
         .catch(() => {
             alert('Error al copiar texto')
             })      
+}
+
+const btnLogo = document.getElementById('logo')
+btnLogo.onclick = ()=> {
+    location.reload();
 }
